@@ -1,0 +1,23 @@
+[package]
+name = "react-qml-rust-example"
+description = "React QML Rust"
+version = "0.0.1"
+authors = ["Long Nguyen <long@podzim.co>"]
+build = "build.rs"
+
+[dependencies]
+qmetaobject = "0.1.3"
+cstr = "0.1.5"
+
+[build-dependencies]
+fs_extra = "1.1.0"
+
+[package.metadata.bundle]
+name = "React QML Rust"
+identifier = "co.podzim.react-qml-rust-example"
+icon = ["32x32.png", "128x128.png", "128x128@2x.png"]
+version = "0.0.1"
+copyright = "Copyright (c) Long Nguyen 2019. All rights reserved."
+category = "Developer Tool"
+short_description = "React QML Rust"
+
