@@ -27,7 +27,7 @@ yarn start
 **Step 2. Run desktop app (in a new terminal tab)**
 ```
 cd rust
-cargo install --path .
+cargo install --path --debug .
 cargo run
 ```
 
